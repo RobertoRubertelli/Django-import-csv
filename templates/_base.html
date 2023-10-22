@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+{% block head %}
+
+  <head>
+
+      <title>{% block title %} Home {% endblock %}</title>
+
+      <meta http-equiv="Content-Type" content="text/html5;charset=UTF-8">
+      <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+
+      <script src="https://unpkg.com/hyperscript.org@0.9.7"></script>
+      <script src="{% static 'js/htmx.min.js'%}"></script>
+      <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+
+  </head>  
+
+{% endblock head %}
+
+{% block cookie %}
+{% endblock cookie %}
+
+{% block header %}
+<header>
+
+</header>
+{% endblock header %}
+
+{% block nav %}
+  <nav>
+  </nav>
+{% endblock nav %}
+
+{% block content %}
+<body>
+    <main>
+                   
+    </main>
+</body>
+{% endblock content %}
+
+<body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'></body>
+
+{% block footer %}
+  <footer>
+  </footer>
+{% endblock footer %}
+
