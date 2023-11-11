@@ -20,7 +20,7 @@ This code is not for BIG DATA.
 It is useful for 20.000 up to 50.000 rows upload.
 
 
-My Tutorial [Django Import CSV](https://www.managepy.it/demo/importcsvtutorial)
+My Tutorial [Django Import CSV](https://www.managepy.it/importcsvtutorial)
 
 My Site [Managepy.it](https://www.managepy.it/)
 
